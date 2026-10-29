@@ -35,6 +35,12 @@ export function SiteHeader() {
   );
 }
 
+const footerCols = [
+  { title: "Job seekers", links: [{ to: "/jobs", l: "Browse jobs" }, { to: "/contact", l: "Submit resume" }] },
+  { title: "Employers", links: [{ to: "/hire", l: "Hire talent" }, { to: "/services", l: "Software delivery" }] },
+  { title: "Company", links: [{ to: "/about", l: "About us" }, { to: "/contact", l: "Contact" }] },
+] as const;
+
 export function SiteFooter() {
   return (
     <footer className="bg-primary text-primary-foreground">
@@ -43,15 +49,11 @@ export function SiteFooter() {
           <p className="font-display text-xl font-bold">Leozen<span className="text-accent">Tech</span></p>
           <p className="mt-3 text-sm opacity-75">Technical staffing and software delivery that moves your business forward.</p>
         </div>
-        {[
-          ["Job seekers", [["/jobs", "Browse jobs"], ["/contact", "Submit resume"]]],
-          ["Employers", [["/hire", "Hire talent"], ["/services", "Software delivery"]]],
-          ["Company", [["/about", "About us"], ["/contact", "Contact"]]],
-        ].map(([title, links]) => (
-          <div key={title as string}>
-            <p className="font-display font-semibold">{title as string}</p>
+        {footerCols.map(({ title, links }) => (
+          <div key={title}>
+            <p className="font-display font-semibold">{title}</p>
             <ul className="mt-3 space-y-2 text-sm opacity-75">
-              {(links as string[][]).map(([to, l]) => (
+              {links.map(({ to, l }) => (
                 <li key={l}><Link to={to} className="hover:text-accent">{l}</Link></li>
               ))}
             </ul>
