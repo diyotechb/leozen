@@ -25,7 +25,8 @@ function Contact() {
       <PageHero eyebrow="Contact" title="Let's talk." text="Hiring, job hunting or planning a project — we'll get back within one business day." />
       <section className="mx-auto grid max-w-6xl gap-12 px-6 py-16 md:grid-cols-3">
         <div className="space-y-6">
-          <div><p className="font-semibold">Email</p><p className="text-muted-foreground">hello@leozentech.com</p></div>
+          <div><p className="font-semibold">Email</p><a className="text-muted-foreground hover:text-foreground" href="mailto:info@leozentech.com">info@leozentech.com</a></div>
+          <div><p className="font-semibold">Phone</p><a className="text-muted-foreground hover:text-foreground" href="tel:+15715196804">571-519-6804</a></div>
           <div><p className="font-semibold">Website</p><p className="text-muted-foreground">leozentech.com</p></div>
         </div>
         <form className="space-y-4 md:col-span-2" onSubmit={(e) => { e.preventDefault(); setSent(true); }}>
