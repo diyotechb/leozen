@@ -61,7 +61,7 @@ export function SiteFooter() {
         ))}
       </div>
       <div className="border-t border-primary-foreground/15 py-5 text-center text-xs opacity-60">
-        © {new Date().getFullYear()} Leozen Tech. All rights reserved.
+        © 2022 Leozen Tech. All rights reserved.
       </div>
     </footer>
   );
