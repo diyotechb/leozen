@@ -4,9 +4,9 @@ import { CtaBand, PageHero } from "@/components/SiteLayout";
 export const Route = createFileRoute("/about")({
   head: () => ({
     meta: [
-      { title: "About LeozenTech" },
-      { name: "description", content: "LeozenTech is a technical staffing and software delivery company built by engineers." },
-      { property: "og:title", content: "About LeozenTech" },
+      { title: "About Leozen Tech" },
+      { name: "description", content: "Leozen Tech is a technical staffing and software delivery company built by engineers." },
+      { property: "og:title", content: "About Leozen Tech" },
       { property: "og:description", content: "Built by engineers, for engineers." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },

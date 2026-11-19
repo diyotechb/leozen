@@ -13,7 +13,7 @@ export function SiteHeader() {
     <header className="sticky top-0 z-50 border-b border-border bg-background/95 backdrop-blur">
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-6">
         <Link to="/" className="font-display text-xl font-bold text-primary">
-          Leozen<span className="text-accent">Tech</span>
+          Leozen<span className="text-accent"> Tech</span>
         </Link>
         <nav className="hidden gap-8 md:flex">
           {nav.map((n) => (
@@ -46,7 +46,7 @@ export function SiteFooter() {
     <footer className="bg-primary text-primary-foreground">
       <div className="mx-auto grid max-w-7xl gap-10 px-6 py-14 md:grid-cols-4">
         <div>
-          <p className="font-display text-xl font-bold">Leozen<span className="text-accent">Tech</span></p>
+          <p className="font-display text-xl font-bold">Leozen<span className="text-accent"> Tech</span></p>
           <p className="mt-3 text-sm opacity-75">Technical staffing and software delivery that moves your business forward.</p>
         </div>
         {footerCols.map(({ title, links }) => (
@@ -61,7 +61,7 @@ export function SiteFooter() {
         ))}
       </div>
       <div className="border-t border-primary-foreground/15 py-5 text-center text-xs opacity-60">
-        © {new Date().getFullYear()} LeozenTech. All rights reserved.
+        © {new Date().getFullYear()} Leozen Tech. All rights reserved.
       </div>
     </footer>
   );

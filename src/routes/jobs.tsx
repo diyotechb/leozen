@@ -5,9 +5,9 @@ import { PageHero } from "@/components/SiteLayout";
 export const Route = createFileRoute("/jobs")({
   head: () => ({
     meta: [
-      { title: "Tech Jobs — LeozenTech" },
-      { name: "description", content: "Browse software, cloud, data and security jobs from LeozenTech's clients." },
-      { property: "og:title", content: "Tech Jobs — LeozenTech" },
+      { title: "Tech Jobs — Leozen Tech" },
+      { name: "description", content: "Browse software, cloud, data and security jobs from Leozen Tech's clients." },
+      { property: "og:title", content: "Tech Jobs — Leozen Tech" },
       { property: "og:description", content: "Browse open tech roles." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },

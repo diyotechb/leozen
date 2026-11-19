@@ -4,9 +4,9 @@ import { CtaBand, PageHero } from "@/components/SiteLayout";
 export const Route = createFileRoute("/hire")({
   head: () => ({
     meta: [
-      { title: "Hire Tech Talent — LeozenTech" },
+      { title: "Hire Tech Talent — Leozen Tech" },
       { name: "description", content: "Hire pre-vetted engineers on contract, contract-to-hire or permanent basis." },
-      { property: "og:title", content: "Hire Tech Talent — LeozenTech" },
+      { property: "og:title", content: "Hire Tech Talent — Leozen Tech" },
       { property: "og:description", content: "Pre-vetted engineers, fast." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },

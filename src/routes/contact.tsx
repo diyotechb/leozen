@@ -5,9 +5,9 @@ import { PageHero } from "@/components/SiteLayout";
 export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
-      { title: "Contact LeozenTech" },
-      { name: "description", content: "Talk to LeozenTech about hiring, jobs or software projects." },
-      { property: "og:title", content: "Contact LeozenTech" },
+      { title: "Contact Leozen Tech" },
+      { name: "description", content: "Talk to Leozen Tech about hiring, jobs or software projects." },
+      { property: "og:title", content: "Contact Leozen Tech" },
       { property: "og:description", content: "Get in touch with our team." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },

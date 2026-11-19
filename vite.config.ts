@@ -15,6 +15,8 @@ export default defineConfig({
       enabled: true,
       crawlLinks: true,
       failOnError: true,
+      retryCount: 3,
+      retryDelay: 1000,
     },
   },
 });

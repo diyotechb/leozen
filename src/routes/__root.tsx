@@ -79,9 +79,9 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "LeozenTech — Technical Staffing & Software Delivery" },
-      { name: "description", content: "LeozenTech connects companies with top tech talent and delivers software projects end to end." },
-      { property: "og:title", content: "LeozenTech — Technical Staffing & Software Delivery" },
+      { title: "Leozen Tech — Technical Staffing & Software Delivery" },
+      { name: "description", content: "Leozen Tech connects companies with top tech talent and delivers software projects end to end." },
+      { property: "og:title", content: "Leozen Tech — Technical Staffing & Software Delivery" },
       { property: "og:description", content: "Tech recruiting and software delivery." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },

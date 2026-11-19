@@ -5,9 +5,9 @@ import { CtaBand } from "@/components/SiteLayout";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "LeozenTech — Tech Talent & Software Delivery" },
-      { name: "description", content: "Find your next tech job or hire skilled engineers. LeozenTech also delivers software projects end to end." },
-      { property: "og:title", content: "LeozenTech — Tech Talent & Software Delivery" },
+      { title: "Leozen Tech — Tech Talent & Software Delivery" },
+      { name: "description", content: "Find your next tech job or hire skilled engineers. Leozen Tech also delivers software projects end to end." },
+      { property: "og:title", content: "Leozen Tech — Tech Talent & Software Delivery" },
       { property: "og:description", content: "Technical staffing, recruitment and software delivery." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
